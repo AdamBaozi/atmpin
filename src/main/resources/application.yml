@@ -1,0 +1,12 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: dan
+  datasource:
+    username: root
+    password: cdmysql
+    url: jdbc:mysql://127.0.0.1:3306/user
+    driver-class-name: com.mysql.jdbc.Driver
+    type : com.alibaba.druid.pool.DruidDataSource
